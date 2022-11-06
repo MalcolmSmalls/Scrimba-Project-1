@@ -2,8 +2,8 @@ import React, { Component } from "react"
 
 function Header() {
     return (
-        <header>
-            <nav>
+        <header className = "top-header">
+            <nav className = "navigation">
                 <img src="./react-logo.png"  className = "nav-logo" />
                 <h2 className = "nav-title">ReactFacts</h2>
                 <span className = "nav-right">React Course - Project 1</span>

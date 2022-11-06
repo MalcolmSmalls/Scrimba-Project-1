@@ -1,4 +1,26 @@
+body {
+  margin:0;
+}
+
+
+.top-header {
+  background-color:#21222A;
+}
+
+.navigation {
+  display:flex;
+  align-items:center;
+}
+
+.nav-right {
+  color:#c5ccd7;
+}
+
 .nav-logo {
   width:3%;
   height:3%;
+}
+
+.nav-title {
+  color:#60d8f6;
 }
