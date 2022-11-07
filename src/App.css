@@ -1,5 +1,7 @@
 body {
   margin:0;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -14,11 +16,32 @@ body {
 
 .nav-right {
   color:#c5ccd7;
+  font-weight:700;
 }
+
+.left-side {
+  width:100%;
+  display:flex; 
+  align-items:center;
+  padding-left:2%;
+  justify-content:flex-start;
+  gap:10px;
+}
+
+.right-side {
+  width:100%;
+  display:flex;
+  justify-content:flex-end;
+  padding-right: 2%;
+
+  /* flex:1 1 50%; */
+}
+
 
 .nav-logo {
   width:3%;
   height:3%;
+  /* flex:1 1 100%; */
 }
 
 .nav-title {
