@@ -6,7 +6,7 @@ body {
 
 
 .top-header {
-  background-color:#21222A;
+  background-color:#21222B;
 }
 
 .navigation {
@@ -46,4 +46,44 @@ body {
 
 .nav-title {
   color:#60d8f6;
+}
+
+.mainBody {
+  background-color:#272d34;
+  margin-top:0;
+  height:100vh;
+}
+
+.main-title {
+  margin-top:0;
+  color:white;
+  font-size:50px;
+  padding-left:2%;
+  padding-top:5%;
+  text-align:center;
+}
+
+.list {
+  color:#9ca1a4;
+  padding-left:26%;
+  line-height:40px;
+}
+
+.centerContent {
+  width:50%;
+  margin:0 auto;
+}
+
+li {
+  list-style:none;
+}
+
+ul li::before {
+  content: "\2022";
+  display:inline-block;
+  width:30px;
+  font-weight:900;
+  color:#5ddcf8;
+  font-size:50px;
+  vertical-align:middle;
 }
